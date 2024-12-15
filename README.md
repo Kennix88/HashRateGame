@@ -1,82 +1,61 @@
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
+[![X share](https://img.shields.io/badge/share-blue?style=for-the-badge&color=0891b2&labelColor=1c1917&logo=x&logoColor=FFFFFF&label=X-twitter)](https://x.com/intent/tweet?text=Telegram%20app%2Fgame%20(Telegram-mini-app)%20based%20on%20the%20play-to-earn%20principle&url=https://github.com/Kennix88/HashRateGame/&hashtags=game,telegram,opensource,PlayToEarn,nx,nextjs,nestjs)
+[![Telegram share](https://img.shields.io/badge/share-blue?style=for-the-badge&color=0891b2&labelColor=1c1917&logo=telegram&logoColor=26A5E4&label=Telegram)](https://t.me/share/url?text=Telegram%20app%2Fgame%20(Telegram-mini-app)%20based%20on%20the%20play-to-earn%20principle&url=https://github.com/Kennix88/HashRateGame/)
+[![Whatsapp share](https://img.shields.io/badge/share-blue?style=for-the-badge&color=0891b2&labelColor=1c1917&logo=whatsapp&logoColor=25D366&label=Whatsapp)](whatsapp://send?text=Telegram%20app%2Fgame%20(Telegram-mini-app)%20based%20on%20the%20play-to-earn%20principle%20%20https://github.com/Kennix88/HashRateGame/)
+[![Viber share](https://img.shields.io/badge/share-blue?style=for-the-badge&color=0891b2&labelColor=1c1917&logo=whatsapp&logoColor=7360F2&label=Viber)](viber://forward?text=Telegram%20app%2Fgame%20(Telegram-mini-app)%20based%20on%20the%20play-to-earn%20principle%20%20https://github.com/Kennix88/HashRateGame/)
+
+<div style='text-align: center'>
+
 # HashRateGame
-
-<a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
-
-✨ Your new, shiny [Nx workspace](https://nx.dev) is almost ready ✨.
-
-[Learn more about this workspace setup and its capabilities](https://nx.dev/nx-api/next?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
-
-## Finish your CI setup
-
-[Click here to finish setting up your workspace!](https://cloud.nx.app/connect/WYPLMp8I1k)
+Telegram app/game (Telegram-mini-app) based on the play-to-earn principle.
 
 
-## Run tasks
+[![release](https://img.shields.io/github/package-json/v/Kennix88/HashRateGame?style=for-the-badge&color=0891b2&labelColor=1c1917)](https://github.com/Kennix88/HashRateGame/releases)
+[![License](https://img.shields.io/github/license/Kennix88/HashRateGame?style=for-the-badge&color=0891b2&labelColor=1c1917)](https://github.com/Kennix88/HashRateGame/blob/master/LICENSE)
+![GitHub Repo stars](https://img.shields.io/github/stars/Kennix88/HashRateGame?style=for-the-badge&color=0891b2&labelColor=1c1917)
+[![wakatime](https://wakatime.com/badge/user/9268c051-c861-45cc-b927-3babf56c56d9/project/8ea93489-247b-4b6c-96db-f1013437caa0.svg?style=for-the-badge&color=0891b2&logoColor=1c1917)](https://github.com/Kennix88/SpaceAdventure-FarmAbuzer-lite)
+[![Game Telegram Bot](https://img.shields.io/endpoint?style=for-the-badge&color=0891b2&labelColor=1c1917&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2FHashRateGame_bot&label=Game+Bot)](https://t.me/https://t.me/HashRateGame_bot)
+[![Game Telegram Channel](https://img.shields.io/endpoint?style=for-the-badge&color=0891b2&labelColor=1c1917&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2FHashRateGame&label=Game+Community)](https://t.me/https://t.me/HashRateGame)
+[![Game Telegram chat](https://img.shields.io/endpoint?label=Game+Chat&style=for-the-badge&color=0891b2&labelColor=1c1917&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2FHashRateGame_chat)](https://t.me/HashRateGame_chat)
+[![Github followers](https://img.shields.io/github/followers/Kennix88?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917)](https://www.github.com/Kennix88)
+[![Telegram Channel](https://img.shields.io/endpoint?style=for-the-badge&color=0891b2&labelColor=1c1917&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Fkennixdev&label=Channel)](https://t.me/KennixDev)
+[![Telegram Group](https://img.shields.io/endpoint?label=Group&style=for-the-badge&color=0891b2&labelColor=1c1917&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2FKennixDevGroup)](https://t.me/KennixDevGroup)
+[![TWITCH STATUS](https://img.shields.io/twitch/status/kennix88?style=for-the-badge&color=0891b2&labelColor=1c1917&logo=twitch&logoColor=9146FF)](https://www.twitch.tv/kennix88)
+[![Youtube](https://img.shields.io/youtube/channel/views/UC5h06O3iKZZTI1puc0T2fLA?label=Youtube&style=for-the-badge&color=0891b2&labelColor=1c1917&logo=youtube&logoColor=FF0000)](https://www.youtube.com/@KennixDev)
 
-To run the dev server for your app, use:
+</div>
 
-```sh
-npx nx dev HashRateGame
-```
+---
 
-To create a production bundle:
-
-```sh
-npx nx build HashRateGame
-```
-
-To see all available targets to run for a project, run:
-
-```sh
-npx nx show project HashRateGame
-```
-
-These targets are either [inferred automatically](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or defined in the `project.json` or `package.json` files.
-
-[More about running tasks in the docs &raquo;](https://nx.dev/features/run-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-## Add new projects
-
-While you could add new projects to your workspace manually, you might want to leverage [Nx plugins](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) and their [code generation](https://nx.dev/features/generate-code?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) feature.
-
-Use the plugin's generator to create new projects.
-
-To generate a new application, use:
-
-```sh
-npx nx g @nx/next:app demo
-```
-
-To generate a new library, use:
-
-```sh
-npx nx g @nx/react:lib mylib
-```
-
-You can use `npx nx list` to get a list of installed plugins. Then, run `npx nx list <plugin-name>` to learn about more specific capabilities of a particular plugin. Alternatively, [install Nx Console](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) to browse plugins and generators in your IDE.
-
-[Learn more about Nx plugins &raquo;](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) | [Browse the plugin registry &raquo;](https://nx.dev/plugin-registry?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+### Roadmap:
 
 
-[Learn more about Nx on CI](https://nx.dev/ci/intro/ci-with-nx#ready-get-started-with-your-provider?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
 
-## Install Nx Console
+---
 
-Nx Console is an editor extension that enriches your developer experience. It lets you run tasks, generate code, and improves code autocompletion in your IDE. It is available for VSCode and IntelliJ.
+### 💵 Sponsorship:
+If you want to support me, I will be very happy about it. 🥺👉👈
 
-[Install Nx Console &raquo;](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+- TON or Jettons(NOT, DOGS, X, HMSTR, STON, GEM, JETTON etc) or TON NFT or TG-Names: `UQAjDnbTYmkesnuG0DZv-PeMo3lY-B-K6mfArUBEEdAb4xaJ`
+- USDT (TON): `UQAjDnbTYmkesnuG0DZv-PeMo3lY-B-K6mfArUBEEdAb4xaJ`
+- USDT (TRC20): `TPYpSQoK7CBvdNBsQRjsNdxFB54Uon8687`
+- BTC: `1Ai9bL7862KQrcHymkakgaEAsDL5M3uNyX`
+- Binance ID: `91467512`
+- ByBit ID: `249886061`
+- KuCoin ID: `208825167`
+- OKX ID: `178528329853476864`
+- Telegram Wallet: [@kennix88](https://t.me/Kennix88)
 
-## Useful links
-
-Learn more:
-
-- [Learn more about this workspace setup](https://nx.dev/nx-api/next?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects)
-- [Learn about Nx on CI](https://nx.dev/ci/intro/ci-with-nx?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [Releasing Packages with Nx release](https://nx.dev/features/manage-releases?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [What are Nx plugins?](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-And join the Nx community:
-- [Discord](https://go.nx.dev/community)
-- [Follow us on X](https://twitter.com/nxdevtools) or [LinkedIn](https://www.linkedin.com/company/nrwl)
-- [Our Youtube channel](https://www.youtube.com/@nxdevtools)
-- [Our blog](https://nx.dev/blog?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+### ⭐ Stargazers:
+[![Stargazers repo roster for @Kennix88/HashRateGame](https://reporoster.com/stars/dark/Kennix88/HashRateGame)](https://github.com/Kennix88/HashRateGame/stargazers)
+### 🍴 Forkers:
+[![Forkers repo roster for @Kennix88/HashRateGame](https://reporoster.com/forks/dark/Kennix88/HashRateGame)](https://github.com/Kennix88/HashRateGame/network/members)
