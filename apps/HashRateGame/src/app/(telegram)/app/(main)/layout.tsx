@@ -7,7 +7,7 @@ export default function MainLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className="bg-[#17212b] text-white w-screen min-h-screen">
+    <div className="bg-background text-on-surface w-screen min-h-screen">
       <div className="p-4">{children}</div>
       <NavBar />
     </div>
