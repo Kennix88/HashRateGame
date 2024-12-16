@@ -1,3 +1,9 @@
+import Profile from './_components/Profile'
+
 export default function Page() {
-  return <div>Mining</div>
+  return (
+    <div>
+      <Profile />
+    </div>
+  )
 }

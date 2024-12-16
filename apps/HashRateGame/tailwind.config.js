@@ -13,6 +13,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        bronze: '#CD7F32',
+        silver: '#C0C0C0',
+        gold: '#FFD700',
         primary: '#cfbcff',
         'on-primary': '#381e72',
         'primary-container': '#4f378a',
@@ -62,11 +65,11 @@ module.exports = {
         'on-surface-variant': '#cac4cf',
         'surface-dim': '#141218',
         'surface-bright': '#3B383E',
-        'surface-container-lowest': '#0F0D13',
-        'surface-container-low': '#1D1B20',
+        'surface-container-l2': '#0F0D13',
+        'surface-container-l': '#1D1B20',
         'surface-container': '#211F26',
-        'surface-container-high': '#2B2930',
-        'surface-container-highest': '#36343B',
+        'surface-container-h': '#2B2930',
+        'surface-container-h2': '#36343B',
         'inverse-surface': '#E6E0E9',
         'inverse-on-surface': '#322F35',
         outline: '#948f99',
