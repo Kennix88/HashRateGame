@@ -1,4 +1,5 @@
 import { TbCoins } from 'react-icons/tb'
+import addSuffixToNumber from '../../../../../../utils/addSuffixToNumber.util'
 
 export default function Profile() {
   return (
@@ -22,11 +23,11 @@ export default function Profile() {
           </div>
           <div className="flex flex-row gap-2 flex-wrap col-span-2 items-center">
             <div className="opacity-80">Balance</div>
-            <div className="flex flex-row gap-1 items-center text-silver text-nowrap text-[12px]">
-              <TbCoins className="text-lg " /> 24 648 310.53
+            <div className="flex flex-row gap-1 items-center text-silver text-nowrap">
+              <TbCoins className="text-lg " /> {addSuffixToNumber(24648310.53)}
             </div>
-            <div className="flex flex-row gap-1 items-center text-gold text-nowrap text-[12px]">
-              <TbCoins className="text-lg " /> 107 021.07
+            <div className="flex flex-row gap-1 items-center text-gold text-nowrap">
+              <TbCoins className="text-lg " /> {addSuffixToNumber(107021.07)}
             </div>
           </div>
           <div className="flex flex-row gap-2 col-span-2 items-center">
@@ -34,7 +35,9 @@ export default function Profile() {
             <div className="bg-surface-container-h h-4 w-full flex items-center justify-start rounded-sm">
               <div className="bg-primary h-full w-[75%] flex items-center justify-center text-on-primary font-normal rounded-sm"></div>
             </div>
-            <div className="text-nowrap">1 647/10 500</div>
+            <div className="text-nowrap">
+              {(1647).toLocaleString('en-US')}/{(10500).toLocaleString('en-US')}
+            </div>
           </div>
         </div>
       </div>
