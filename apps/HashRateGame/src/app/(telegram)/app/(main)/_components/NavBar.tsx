@@ -1,9 +1,10 @@
 'use client'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { FaTasks, FaUserFriends } from 'react-icons/fa'
+import { FaTasks } from 'react-icons/fa'
 import { GiMining } from 'react-icons/gi'
 import { IoLogoGameControllerA } from 'react-icons/io'
+import { IoStatsChart } from 'react-icons/io5'
 import { MdMenu } from 'react-icons/md'
 
 export default function NavBar() {
@@ -21,10 +22,15 @@ export default function NavBar() {
       icon: <GiMining className="text-2xl" />,
     },
     {
-      name: 'Friends',
-      href: '/friends',
-      icon: <FaUserFriends className="text-2xl" />,
+      name: 'Statystics',
+      href: '/statistics',
+      icon: <IoStatsChart className="text-2xl" />,
     },
+    // {
+    //   name: 'Friends',
+    //   href: '/friends',
+    //   icon: <FaUserFriends className="text-2xl" />,
+    // },
     { name: 'Menu', href: '/menu', icon: <MdMenu className="text-2xl" /> },
   ]
 
@@ -39,12 +45,20 @@ export default function NavBar() {
               ? 'text-on-surface-variant'
               : 'text-on-surface'
           }`}>
-          <Link href={`/app${item.href}`}>{item.icon}</Link>
-          <span
-            className={`px-3 py-0.5 rounded-full ${
+          <Link
+            className={`px-3 py-1 rounded-lg ${
               location !== `/app${item.href}`
                 ? 'text-on-surface-variant'
                 : 'text-on-surface bg-secondary-container'
+            }`}
+            href={`/app${item.href}`}>
+            {item.icon}
+          </Link>
+          <span
+            className={` ${
+              location !== `/app${item.href}`
+                ? 'text-on-surface-variant'
+                : 'text-on-surface'
             }`}>
             {item.name}
           </span>

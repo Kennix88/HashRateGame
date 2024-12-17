@@ -8,8 +8,8 @@ export default function MainLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className="bg-background text-on-surface w-screen min-h-screen">
-      <div className="p-2">{children}</div>
+    <div className="bg-background text-on-surface w-screen min-h-screen tracking-wider">
+      <div className="p-4">{children}</div>
       <NavBar />
     </div>
   )
