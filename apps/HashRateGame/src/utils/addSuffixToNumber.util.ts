@@ -1,6 +1,6 @@
 export default function addSuffixToNumber(
   number: number,
-  float: number = 3,
+  fixed: number = 3,
 ): string {
   const suffixes = ['', 'K', 'M', 'B', 'T', 'Q', 'S', 'O', 'N', 'D', 'U', 'D']
   let suffixIndex = 0
@@ -11,7 +11,7 @@ export default function addSuffixToNumber(
   }
 
   if (number % 1 !== 0) {
-    return `${number.toFixed(float)}${suffixes[suffixIndex]}`
+    return `${number.toFixed(fixed)}${suffixes[suffixIndex]}`
   } else {
     return `${number.toFixed(0)}${suffixes[suffixIndex]}`
   }
